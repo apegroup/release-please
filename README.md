@@ -1,3 +1,24 @@
+# About the fork
+
+This repo is a fork
+of [stan-stately's additional-package-paths branch](https://github.com/stan-stately/release-please/tree/stan/additional-package-paths),
+which allows us to use `additionalPaths`. There is
+an [open issue](https://github.com/googleapis/release-please/pull/2534) to add this functionality in the actual release,
+which we will monitor.
+
+The fork is used in Umain projects.
+
+## :warning: Repository visibility
+
+This is a `public` repository, so please be mindful of the information you share in issues, pull requests, and other
+public communication channels.
+
+## :arrows_counterclockwise: Synchronizing with upstream
+
+Make sure to synchronize upstream changes from
+the [additional-package-paths branch](https://github.com/stan-stately/release-please/tree/stan/additional-package-paths),
+not from the main branch.
+
 <img src="https://avatars2.githubusercontent.com/u/2810941?v=3&s=96" alt="Google Cloud Platform logo" title="Google Cloud Platform" align="right" height="96" width="96"/>
 
 # [Release Please](https://github.com/googleapis/release-please)
