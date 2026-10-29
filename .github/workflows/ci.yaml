@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node: [18, 20]
+        node: [20]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v3
@@ -69,5 +69,5 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-      - run: npm install --save googleapis/release-please#${{ github.ref }}
+      - run: npm install --save ${{ github.repository }}#${{ github.ref }}
       - run: npm run build
